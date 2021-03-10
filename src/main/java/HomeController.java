@@ -9,9 +9,9 @@ public class HomeController {
       return "index";
     }
 
-//    @GetMapping("/submit") {
-//        public String renderSubmit() {
-//            return ""
-//        }
-//    }
-}
+    @GetMapping("/submit")
+        public String renderSubmit(){
+            return "submit.html";
+        }
+    }
+
