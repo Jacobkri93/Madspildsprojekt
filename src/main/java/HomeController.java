@@ -8,4 +8,10 @@ public class HomeController {
     public String RenderIndex(){
       return "index";
     }
+
+//    @GetMapping("/submit") {
+//        public String renderSubmit() {
+//            return ""
+//        }
+//    }
 }
